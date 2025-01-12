@@ -1,21 +1,25 @@
-# pycounts
+# pycounts_mds_yibin
 
 Calculate word counts ina a text file!
+
+## Test Pypi Link
+
+https://test.pypi.org/project/pycounts_mds_yibin/
 
 ## Installation
 
 ```bash
-$ pip install pycounts
+$ pip install -i https://test.pypi.org/simple/ pycounts_mds_yibin
 ```
 
 ## Usage
 
-`pycounts` can be used to count words in a text file and plot results
+`pycounts_mds_yibin` can be used to count words in a text file and plot results
 as follows:
 
 ```python
-from pycounts.pycounts import count_words
-from pycounts.plotting import plot_words
+from pycounts_mds_yibin.pycounts import count_words
+from pycounts_mds_yibin.plotting import plot_words
 import matplotlib.pyplot as plt
 
 file_path = "test.txt"  # path to your file
@@ -30,7 +34,7 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## License
 
-`pycounts` was created by Yibin Long. It is licensed under the terms of the MIT license.
+`pycounts_mds_yibin` was created by Yibin Long. It is licensed under the terms of the MIT license.
 
 ## Credits
 
